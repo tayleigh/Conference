@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Navigation Example</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="screen" href="css/styles.min.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+<!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+<div id="headerWrapper">
+	<header>
+        <a href="index.html"><img src="images/logo1x.png" alt="logo" width="45" height="45" srcset="images/logo1x.png 1x, images/logo2x.png 2x, images/logo3x.png 3x"></a>
+		<span>Tech Conference</span>
+        <div id="hamburgerBtn">
+            <span class="top"></span>
+            <span class="bottom"></span>
+        </div>
+	</header>
+</div><!-- end header wrapper -->
+
+    
+    
+<div id="navWrapper">
+    <nav>
+        <ul id="primaryNav">
+            <li><a href="#">Tech</a></li>
+            <li><a href="#">Services</a></li>
+            <li class="active"><a href="#">Hiking</a></li>
+            <li><a href="#">Conference</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</div> <!-- end nav wrapper -->
+
+<div id="mainWrapper">
+    <main>
+        <h1>Learn</h1>
+        <div class="hero">
+        <video autoplay muted playinline loop width="800" height="auto">
+            <source src="/media/hero-handbrake.webm" type="video/webm" />
+            <source src="/media/hero-handbrake.mp4" type="video/mp4" />
+    
+          </video>
+          <div>
+            <h3>2024 Hikes</h3>
+            <p>These are some of the coolest hikes I did this summer</p>
+          </div>
+        </div>
+
+        <h2>Technology Conference</h2>
+        <p>I didn't want to find a bunch of tech assets for this project, so I decided to take this opportunity to compile a bunch of my hiking photos. I still learned what I needed to from this assignment, so I am assuming it's fine. I hope you appreciate the pretty pictures!</p>
+
+    <!--flipping cards-->
+    <div class="allcards">
+    <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="images/bryce.jpeg" alt="Avatar" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>Bryce Canyon</h1>
+            <p>Bryce Canyon National Park</p>
+            <p>2024</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="images/sunrise.jpeg" alt="Avatar" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>Mount Timpanogos</h1>
+            <p>Utah Sunrise</p>
+            <p>2023</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="images/timp.jpeg" alt="Avatar" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>Mount Timpanogos</h1>
+            <p>Utah Mountain</p>
+            <p>2024</p>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+
+     
+
+    </main>
+</div><!-- end main wrapper -->
+    
+<div id="footerWrapper">
+    <footer>
+        <p>Copyright &copy; 2025 Tayleigh Ward. 
+            <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a> | <a href="#">Clients</a></p>
+    </footer>
+</div> <!-- end footer wrapper -->
+   <script src="js/scripts.js"></script>
+</body>
+</html> 
